@@ -1,8 +1,5 @@
-import Data.List
-
--- Seems like a bit of a hack, we just concatonate the list n times and sort.
 f :: Int -> [Int] -> [Int]
-f n arr = sort $ concat [ arr | _ <-[ 1 .. n ] ]
+f n arr =  concat [ [ x | _ <- [1 .. n]] | x <- arr ]
 
 -- This part handles the Input and Output and can be used as it is. Do not modify this part.
 main :: IO ()
