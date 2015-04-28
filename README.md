@@ -1,5 +1,12 @@
 # hacker-rank
 Repository of Hacker Rank Solutions
 
-Compile Haskell solutions with
-ghc -o program haskell.hs
+# Directory Structure
+/challenges
+--/{challenge name}
+----haskell.hs	//haskell solution 
+----clang.c	//c solution
+----dlang.d	//d solution
+
+#Compilation
+Compile Haskell solutions with ghc -o program haskell.hs
